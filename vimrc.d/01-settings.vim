@@ -1,6 +1,7 @@
 " ==================================================
 " Basic Settings
 " ==================================================
+
 let mapleader="\<Space>" " change the leader to be a space vs slash
 set ch=2                 " Make command line two lines high
 set ls=2                 " allways show status line
@@ -29,7 +30,6 @@ set ttymouse=xterm2
 set history=500          " larger history
 set noshowmode           " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 set timeout ttimeoutlen=50
-
 set splitright           " Splits to the right
 autocmd VimResized * wincmd =   " Automatically equalize splits when Vim is resized
 
@@ -58,6 +58,7 @@ if has("gui_running")
     set lines=75
     set columns=180
 endif
+
 
 " ==================================================
 " Tab expanded to 4 spaces

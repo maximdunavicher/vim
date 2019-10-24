@@ -22,6 +22,10 @@
 " ==================================================
 " Allow pre-definitions via ~/.vim/vimrc.before
 " ==================================================
+if has('python3')
+    silent! python3 1
+endif
+
 if filereadable(expand("~/.vim/vimrc.before"))
     source ~/.vim/vimrc.before
 endif
@@ -46,3 +50,7 @@ endif
 if filereadable(expand("~/.vim/vimrc.local"))
     source ~/.vim/vimrc.local
 endif
+set directory=~/.vim/tmp
+set clipboard=unnamed
+set nocompatible
+set mouse-=a

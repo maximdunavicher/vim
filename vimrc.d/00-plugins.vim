@@ -11,7 +11,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'sirver/ultisnips'
 Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'klen/python-mode'
+Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 Plug 'vim-scripts/DrawIt'
 Plug 'tpope/vim-surround'
 Plug 'vim-scripts/Shebang'
@@ -31,7 +31,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'tomtom/tcomment_vim'
-Plug 'davidhalter/jedi-vim'
 Plug 'ludovicchabant/vim-lawrencium'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'tpope/vim-unimpaired'
@@ -47,18 +46,12 @@ Plug 'rust-lang/rust.vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'machakann/vim-highlightedyank'
 Plug 'ekalinin/Dockerfile.vim'
-
+Plug 'davidhalter/jedi-vim'
 
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'
 
-if v:version >= 800
-    " Vim 8.0: Alternative async-completor plugin
-    " built-in support for python (jedi), java, etc.
-    Plug 'maralla/completor.vim'
-    Plug 'w0rp/ale'
-else
-    Plug 'scrooloose/syntastic'
-endif
-
+" Vim 8.0: Alternative async-completor plugin
+" built-in support for python (jedi), java, etc.
+Plug 'w0rp/ale'
 call plug#end()
