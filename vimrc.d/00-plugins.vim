@@ -1,4 +1,5 @@
 " ==================================================
+"
 " vim-plug  setup
 " ==================================================
 call plug#begin()
@@ -47,7 +48,7 @@ Plug 'Quramy/tsuquyomi'
 Plug 'machakann/vim-highlightedyank'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'davidhalter/jedi-vim'
-
+Plug 'tarekbecker/vim-yaml-formatter'
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'
 

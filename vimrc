@@ -53,4 +53,4 @@ endif
 set directory=~/.vim/tmp
 set clipboard=unnamed
 set nocompatible
-set mouse-=a
+" set mouse-=a
