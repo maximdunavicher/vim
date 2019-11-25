@@ -51,7 +51,8 @@ Plug 'davidhalter/jedi-vim'
 Plug 'tarekbecker/vim-yaml-formatter'
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'
-
+Plug 'KangOl/vim-pudb'
+Plug 'SkyLeach/pudb.vim'
 " Vim 8.0: Alternative async-completor plugin
 " built-in support for python (jedi), java, etc.
 Plug 'w0rp/ale'

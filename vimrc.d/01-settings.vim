@@ -15,6 +15,7 @@ set rulerformat=%30(%=\:b%n%y%m%r%w\ %l,%c%V\ %P%)
 set visualbell
 set nobackup             " do not keep a backup file
 set number               " show line numbers
+set relativenumber
 set title                " show title in console title bar
 set ttyfast              " smoother changes
 set modeline             " last lines in document sets vim mode
